@@ -40,7 +40,9 @@ console.log(str3);
 // console.log(typeof Number("abc"));
 // console.log(parseInt("50px") + 10);
 
-let x;
-console.log(typeof x);
+// let x;
+// console.log(typeof x);
+let y = null;
+console.log(typeof y);
 
 
