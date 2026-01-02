@@ -38,7 +38,9 @@ console.log(str3);
 // console.log(Number("20") + "10");
 
 // console.log(typeof Number("abc"));
-console.log(parseInt("50px") + 10);
+// console.log(parseInt("50px") + 10);
 
+let x;
+console.log(typeof x);
 
 
