@@ -35,6 +35,10 @@ console.log(str3);
 // console.log("5" + 2 + 3);
 
 // console.log(2 + 3 + "5");
-console.log(Number("20") + "10");
+// console.log(Number("20") + "10");
+
+// console.log(typeof Number("abc"));
+console.log(parseInt("50px") + 10);
+
 
 
