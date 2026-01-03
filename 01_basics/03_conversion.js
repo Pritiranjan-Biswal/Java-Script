@@ -45,22 +45,23 @@ console.log(str3);
 // let y = null;
 // console.log(typeof y);
 
-let x="25"
-y=Number(x)
-console.log(y);
-console.log(typeof y);
+// let x="25"
+// y=Number(x)
+// console.log(y);
+// console.log(typeof y);
 
 
-let a="10"
-let b="20"
-console.log(Number(a)+Number(b));
+// let a="10"
+// let b="20"
+// console.log(Number(a)+Number(b));
 
-let p="5"
-let q=2
-console.log(Number(p)+2)
+// let p="5"
+// let q=2
+// console.log(Number(p)+2)
 
 
-const m=7
+// const m=7
 
-m=8
-console.log(m)
+// m=8
+// console.log(m)
+
