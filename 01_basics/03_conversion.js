@@ -67,3 +67,5 @@ console.log(str3);
 
 
 const heros=["Kuna", "Pritiranjan", "Neula"]
+
+console.log(heros);
