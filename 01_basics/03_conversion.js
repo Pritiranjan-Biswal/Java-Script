@@ -78,3 +78,6 @@ console.log(str3);
 
 // console.log(myObj);
 
+let name="pritiranjan"
+my_name="pritiranjan"
+console.log(my_name);
