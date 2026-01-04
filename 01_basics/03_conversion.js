@@ -70,11 +70,11 @@ console.log(str3);
 
 // console.log(heros);
 
-let myObj={
-    name:"kuna",
-    age:18,
-    subject:"Physics"
-}
+// let myObj={
+//     name:"kuna",
+//     age:18,
+//     subject:"Physics"
+// }
 
-console.log(myObj);
+// console.log(myObj);
 
