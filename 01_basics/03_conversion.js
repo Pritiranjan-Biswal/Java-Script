@@ -65,3 +65,5 @@ console.log(str3);
 // m=8
 // console.log(m)
 
+
+const heros=["Kuna", "Pritiranjan", "Neula"]
