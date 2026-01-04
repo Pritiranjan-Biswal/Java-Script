@@ -79,5 +79,5 @@ console.log(str3);
 // console.log(myObj);
 
 let name="pritiranjan"
-my_name="pritiranjan"
+let my_name=name
 console.log(my_name);
