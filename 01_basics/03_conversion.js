@@ -66,6 +66,15 @@ console.log(str3);
 // console.log(m)
 
 
-const heros=["Kuna", "Pritiranjan", "Neula"]
+// const heros=["Kuna", "Pritiranjan", "Neula"]
 
-console.log(heros);
+// console.log(heros);
+
+let myObj={
+    name:"kuna",
+    age:18,
+    subject:"Physics"
+}
+
+console.log(myObj);
+
