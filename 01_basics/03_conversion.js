@@ -70,14 +70,23 @@ console.log(str3);
 
 // console.log(heros);
 
-// let myObj={
-//     name:"kuna",
-//     age:18,
-//     subject:"Physics"
-// }
 
-// console.log(myObj);
+// let name="pritiranjan"
+// let my_name=name
+// console.log(my_name);
 
-let name="pritiranjan"
-let my_name=name
-console.log(my_name);
+
+let a = 10;
+let b = a;
+
+b = 20;
+console.log(a); // 10
+console.log(b); // 20
+
+
+// let obj1 = { name: "Nick" };
+// let obj2 = obj1;
+
+// obj2.name = "Kuna";
+// console.log(obj1.name); // Kuna
+
