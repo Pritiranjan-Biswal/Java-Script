@@ -26,9 +26,9 @@ let str="kuna kuna biswal";
 // console.log(str.replaceAll("kuna","priti"));
 
 
-console.log("a,b,c".split(","));
+// console.log("a,b,c".split(","));
 
-console.log("Hello".concat(" World"));
+// console.log("Hello".concat(" World"));
 
 
 
