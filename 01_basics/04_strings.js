@@ -7,14 +7,16 @@ let str="kuna";
 
 // console.log(str.at(-2));
 
-console.log(str.slice(0,4));
-console.log(str.slice(-3));
+// console.log(str.slice(0,4));
+// console.log(str.slice(-3));
 
-console.log(str.substring(0,3));
+// console.log(str.substring(0,3));
 
-console.log(str.toUpperCase());
+// console.log(str.toUpperCase());
 
+console.log(str.trim());
 
+console.log(str.includes("k"));
 
 
 
