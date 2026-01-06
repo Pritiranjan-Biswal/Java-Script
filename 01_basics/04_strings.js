@@ -12,6 +12,8 @@ console.log(str.slice(-3));
 
 console.log(str.substring(0,3));
 
+console.log(str.toUpperCase());
+
 
 
 
