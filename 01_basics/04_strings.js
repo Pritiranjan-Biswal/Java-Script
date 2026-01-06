@@ -14,9 +14,14 @@ let str="kuna";
 
 // console.log(str.toUpperCase());
 
-console.log(str.trim());
+// console.log(str.trim());
 
-console.log(str.includes("k"));
+// console.log(str.includes("k"));
+
+console.log("pritiranjan".indexOf("p"));
+
+
+
 
 
 
