@@ -1,4 +1,4 @@
-let str="kuna";
+let str="kuna kuna biswal";
 // console.log(str.length);
 
 // console.log(str.at(1));
@@ -18,11 +18,17 @@ let str="kuna";
 
 // console.log(str.includes("k"));
 
-console.log("pritiranjan".indexOf("p"));
+// console.log("pritiranjan".indexOf("p"));
+
+// console.log("pritiranjan".lastIndexOf("r"));
+
+// console.log(str.replace("kuna","priti"));
+// console.log(str.replaceAll("kuna","priti"));
 
 
+console.log("a,b,c".split(","));
 
-
+console.log("Hello".concat(" World"));
 
 
 
