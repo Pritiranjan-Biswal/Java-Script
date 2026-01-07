@@ -9,5 +9,10 @@
 // console.log(otherNumber.toPrecision(6));
 
 
-const hundreds = 1000000
-console.log(hundreds.toLocaleString());
+// const hundreds = 1000000
+// console.log(hundreds.toLocaleString());
+
+
+console.log(Math);
+console.log(Math.abs(-4));
+console.log(Math.round(3.5));
