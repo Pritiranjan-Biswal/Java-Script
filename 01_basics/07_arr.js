@@ -10,3 +10,4 @@
 // console.log(real_another_array);
 
 console.log(Array.isArray("Hitesh"))
+
