@@ -8,6 +8,7 @@ console.log(3+2);
 console.log(typeof 4)
 console.log(typeof "kuna")
 console.log(typeof null)
+
 console.log(typeof undefined)
 
 
