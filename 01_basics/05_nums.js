@@ -14,8 +14,10 @@
 
 
 console.log(Math);
+
 console.log(Math.abs(-4));
 console.log(Math.round(3.5));
+
 
 
 console.log(Math.ceil(4.5));

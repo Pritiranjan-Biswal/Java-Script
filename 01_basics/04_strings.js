@@ -15,6 +15,7 @@ let str="kuna kuna biswal";
 
 // console.log(str.substring(0,3));
 
+
 // console.log(str.toUpperCase());
 
 // console.log(str.trim());

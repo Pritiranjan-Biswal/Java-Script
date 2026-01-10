@@ -6,7 +6,10 @@ console.log(typeof value)
 let numberInvalue=Number(value)
 
 console.log(typeof numberInvalue)
+
 console.log(numberInvalue)
+
+
 
 
 
