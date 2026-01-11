@@ -10,6 +10,11 @@ const  Juser= {
 
 }
 
-
+Juser.email="priti@google.com";
 
 console.log(Juser["email"]);
+
+Object.isFrozen(Juser); // true
+
+Object.isFrozen(Juser); 
+console.log(Object.isFrozen(Juser));
