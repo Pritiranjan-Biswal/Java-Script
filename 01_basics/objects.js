@@ -28,3 +28,16 @@
 
 
 // console.log(User);
+
+
+const mine ={
+     fullname : {
+        userfullname :{
+            firstname : "kuna",
+            lastname:"biswal"
+        }
+     }
+
+}
+
+console.log(mine.fullname.userfullname.firstname);
