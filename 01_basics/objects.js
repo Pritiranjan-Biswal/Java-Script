@@ -18,3 +18,13 @@
 
 // Object.isFrozen(Juser); 
 // console.log(Object.isFrozen(Juser));
+
+
+const User={}
+
+User.id="123abc"
+User.name="kuna"
+User.sub="Math"
+
+
+console.log(User);
