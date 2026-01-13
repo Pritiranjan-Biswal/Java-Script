@@ -31,6 +31,5 @@ const user ={
 
 function myobj(anyobj) {
     console.log(`user name is ${anyobj.name} and my age is ${anyobj.age}`);
-    
 }
 myobj(user);
