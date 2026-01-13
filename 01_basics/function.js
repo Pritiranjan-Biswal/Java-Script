@@ -11,7 +11,13 @@
 
 
 function userlogin(username) {
+    if(username === undefined)
+ {
+    console.log("please enter a valid name");
+    
+ }else {
     return `${username} just logged in`;
+ }
 }
 
 console.log(userlogin("kuna"));
