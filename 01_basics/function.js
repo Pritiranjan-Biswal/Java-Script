@@ -1,6 +1,8 @@
 function addtnos(number1,number2) {
-    console.log(number1+number2);
+    let result=number1+number2;
+    return result;
     
 }
 
-addtnos(3,4);
+const result=addtnos(5,7);
+console.log("result= ",result);
