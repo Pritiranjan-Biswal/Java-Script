@@ -10,14 +10,27 @@
 
 
 
-function userlogin(username) {
-    if(username === undefined)
- {
-    console.log("please enter a valid name");
+// function userlogin(username) {
+//     if(username === undefined)
+//  {
+//     console.log("please enter a valid name");
     
- }else {
-    return `${username} just logged in`;
- }
+//  }else {
+//     return `${username} just logged in`;
+//  }
+// }
+
+// console.log(userlogin("kuna"));
+
+const user ={
+    name:"kuna",
+    age:18
+
 }
 
-console.log(userlogin("kuna"));
+
+function myobj(anyobj) {
+    console.log(`user name is ${anyobj.name} and my age is ${anyobj.age}`);
+    
+}
+myobj(user);
