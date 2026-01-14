@@ -30,6 +30,6 @@ const user ={
 
 
 function myobj(anyobj) {
-    console.log(`user name is ${anyobj.name} and my age is ${anyobj.age}`);
+    console.log(`user name is ${anyobj.name} and my age is ${anyobj.ages}`);
 }
 myobj(user);
