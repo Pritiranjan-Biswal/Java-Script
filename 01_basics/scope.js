@@ -23,8 +23,8 @@ function one() {
         console.log(username);
         
     }
-    // console.log(website);
-    // two()
+    console.log(website);
+    two()
     
 }
 one()
