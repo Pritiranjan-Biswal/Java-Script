@@ -14,3 +14,17 @@
 // console.log(b);
 // console.log(c);
 
+
+
+function one() {
+    const username ="kuna"
+    function two() {
+        const website ="youtube"
+        console.log(username);
+        
+    }
+    console.log(website);]
+    two()
+    
+}
+one()
