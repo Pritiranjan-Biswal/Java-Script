@@ -24,7 +24,7 @@ function one() {
         
     }
     // console.log(website);
-    two()
+    // two()
     
 }
 one()
