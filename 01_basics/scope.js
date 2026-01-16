@@ -52,7 +52,7 @@
 var a=100;
 function test() {
     console.log(a);
-    var a=50;
+     a=50;
     
 }
 console.log(a);
