@@ -59,3 +59,17 @@
 
 // test();
 // console.log(a);
+
+
+const userform = {
+    name:"kuna",
+    price:999,
+    welcomeMessage: function() {
+        console.log(`${this.name}, is my name.`);
+        
+    }
+
+}
+userform.welcomeMessage();
+userform.name="priti";
+userform.welcomeMessage();
