@@ -38,12 +38,23 @@
 // console.log(addOne(4));
 
 
-console.log(x);
-greet();
+// console.log(x);
+// greet();
 
-var x=10;
+// var x=10;
 
-function greet() {
-    console.log("Hello World");
+// function greet() {
+//     console.log("Hello World");
+    
+// }
+
+
+var a=100;
+function test() {
+    console.log(a);
+    var a=50;
     
 }
+console.log(a);
+
+test();
