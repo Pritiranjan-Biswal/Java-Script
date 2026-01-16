@@ -61,18 +61,18 @@
 // console.log(a);
 
 
-const userform = {
-    name:"kuna",
-    price:999,
-    welcomeMessage: function() {
-        console.log(`${this.name}, is my name.`);
-        // console.log(this);
+// const userform = {
+//     name:"kuna",
+//     price:999,
+//     welcomeMessage: function() {
+//         console.log(`${this.name}, is my name.`);
+//         // console.log(this);
         
-    }
+//     }
 
-}
-userform.welcomeMessage();
-userform.name="priti";
-userform.welcomeMessage();
+// }
+// userform.welcomeMessage();
+// userform.name="priti";
+// userform.welcomeMessage();
 
-console.log(this);
+// console.log(this);
