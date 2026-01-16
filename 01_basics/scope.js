@@ -38,3 +38,12 @@
 // console.log(addOne(4));
 
 
+console.log(x);
+greet();
+
+var x=10;
+
+function greet() {
+    console.log("Hello World");
+    
+}
