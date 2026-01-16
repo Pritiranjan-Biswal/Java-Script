@@ -49,12 +49,13 @@
 // }
 
 
-var a=100;
-function test() {
-    console.log(a);
-     a=50;
+// var a=100;
+// function test() {
+//     console.log(a);
+//     a=50;
     
-}
-console.log(a);
+// }
 
-test();
+
+// test();
+// console.log(a);
