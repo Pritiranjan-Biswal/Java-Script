@@ -30,11 +30,11 @@
 // one()
 
 
-function addOne(num) {
-    return num+1;
-}
+// function addOne(num) {
+//     return num+1;
+// }
 
 
-console.log(addOne(4));
+// console.log(addOne(4));
 
 
