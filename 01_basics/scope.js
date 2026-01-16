@@ -66,6 +66,7 @@ const userform = {
     price:999,
     welcomeMessage: function() {
         console.log(`${this.name}, is my name.`);
+        // console.log(this);
         
     }
 
@@ -73,3 +74,5 @@ const userform = {
 userform.welcomeMessage();
 userform.name="priti";
 userform.welcomeMessage();
+
+console.log(this);
