@@ -76,3 +76,26 @@
 // userform.welcomeMessage();
 
 // console.log(this);
+
+
+// const chai=function() {
+//     let name="kuna"
+//     console.log(this.name);
+    
+// }
+// chai();
+
+const user1 = {
+  name: "Kuna",
+  greet: function () {
+    console.log(this.name);
+  }
+};
+
+const user2 = {
+  name: "Ravi",
+  greet: user1.greet
+};
+
+user1.greet(); // Kuna
+user2.greet(); // Ravi
