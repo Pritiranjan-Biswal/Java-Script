@@ -5,3 +5,5 @@ let str="kuna";
 
 
 // console.log(str.slice(-3,-1));
+
+console.log(str.substring(0,4));
