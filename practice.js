@@ -1,4 +1,4 @@
-let str="KUNA";
+let str="   KUNA";
 // console.log(str.length);
 
 // console.log(str.charAt(3));
@@ -11,3 +11,5 @@ let str="KUNA";
 
 console.log(str.toUpperCase());
 console.log(str.toLowerCase());
+console.log(str.trim());
+console.log(str.includes("KU"));
