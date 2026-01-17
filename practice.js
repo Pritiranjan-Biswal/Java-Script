@@ -20,3 +20,9 @@ console.log(k.lastIndexOf("n"));
 
 
 console.log(k.replaceAll("a", "b"));
+
+
+let pr="kunabiswal, pritibidwal";
+console.log(pr.split(","));
+
+console.log(k.concat(" is my favourite food."));
