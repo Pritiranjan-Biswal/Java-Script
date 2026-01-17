@@ -1,4 +1,4 @@
-let str="kuna";
+let str="KUNA";
 // console.log(str.length);
 
 // console.log(str.charAt(3));
@@ -10,3 +10,4 @@ let str="kuna";
 
 
 console.log(str.toUpperCase());
+console.log(str.toLowerCase());
