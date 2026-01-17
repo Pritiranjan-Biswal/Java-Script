@@ -1,4 +1,4 @@
 let str="kuna";
 // console.log(str.length);
 
-console.log(str.charAtat(-3));
+// console.log(str.charAt(3));
