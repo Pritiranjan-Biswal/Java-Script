@@ -15,3 +15,7 @@ let str="   KUNA";
 // console.log(str.includes("KU"));
 
 
+let k="banana";
+console.log(k.lastIndexOf("n"));
+
+
