@@ -19,3 +19,4 @@ let k="banana";
 console.log(k.lastIndexOf("n"));
 
 
+console.log(k.replaceAll("a", "b"));
