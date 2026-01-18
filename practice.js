@@ -15,14 +15,19 @@ let str="   KUNA";
 // console.log(str.includes("KU"));
 
 
-let k="banana";
-console.log(k.lastIndexOf("n"));
+// let k="banana";
+// // console.log(k.lastIndexOf("n"));
 
 
-console.log(k.replaceAll("a", "b"));
+// // console.log(k.replaceAll("a", "b"));
 
 
-let pr="kunabiswal, pritibidwal";
-console.log(pr.split(","));
+// // let pr="kunabiswal, pritibidwal";
+// // console.log(pr.split(","));
 
-console.log(k.concat(" is my favourite food."));
+// // console.log(k.concat(" is my favourite food."));
+
+
+const a = 12345;
+console.log(a.toString());
+
