@@ -33,3 +33,7 @@ let str="   KUNA";
 
 // const num=123.8900;
 // console.log(num.toPrecision(6));
+
+
+const num=123.890045;
+console.log(num.toLocaleString('en-IN'));
