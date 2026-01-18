@@ -30,6 +30,8 @@ let str="   KUNA";
 // // console.log(k.concat(" is my favourite food."));
 
 
+
+
 // const a = 12345;
 // console.log(a.toString());
 
