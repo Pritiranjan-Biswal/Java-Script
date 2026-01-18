@@ -28,6 +28,8 @@ let str="   KUNA";
 // // console.log(k.concat(" is my favourite food."));
 
 
-const a = 12345;
-console.log(a.toString());
+// const a = 12345;
+// console.log(a.toString());
 
+// const num=123.8900;
+// console.log(num.toPrecision(6));
