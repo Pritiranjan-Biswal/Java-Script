@@ -50,15 +50,17 @@ let user = {     // an object
 
 // get property values of the object:
 
-user.isAdmin="bisu";
+// user.isAdmin="bisu";
+
+// console.log(user);
+
+// delete user.age;
+// console.log(user);
+
+// user.full Name="kuna Biswal";
+user["Full Name"]="kuna biswal";
 
 console.log(user);
-
-delete user.age;
-console.log(user);
-
-user.full Name="kuna Biswal";
-
 
 
 
