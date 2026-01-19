@@ -50,8 +50,9 @@ let user = {     // an object
 
 // get property values of the object:
 
-user.isAdmin=true;
+user.isAdmin="bisu";
 
+console.log(user);
 
 
 
