@@ -54,12 +54,10 @@ user.isAdmin="bisu";
 
 console.log(user);
 
+delete user.age;
+console.log(user);
 
-
-
-
-
-
+user.full Name="kuna Biswal";
 
 
 
