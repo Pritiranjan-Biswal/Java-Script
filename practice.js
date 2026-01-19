@@ -61,14 +61,13 @@ let str="   KUNA";
 // user["Full Name"]="kuna biswal";
 
 // console.log(user);
-let user = {
-  name: "John",
-  age: 30
-};
+  let user = {
+    name: "John",
+    age: 30
+  };
 
-let key = prompt("What do you want to know about the user?", "name");
-
-// access by variable
-alert( user[key] );
+  let key = "name";
+  console.log((user[key]));
+  
 
 
