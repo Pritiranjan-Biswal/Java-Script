@@ -39,5 +39,27 @@ let str="   KUNA";
 // console.log(num.toPrecision(6));
 
 
-const num=123.890045;
-console.log(num.toLocaleString('en-IN'));
+// const num=123.890045;
+// console.log(num.toLocaleString('en-IN'));
+
+
+let user = {     // an object
+  name: "John",  // by key "name" store value "John"
+  age: 30        // by key "age" store value 30
+};
+
+// get property values of the object:
+
+user.isAdmin=true;
+
+
+
+
+
+
+
+
+
+
+
+
