@@ -43,10 +43,10 @@ let str="   KUNA";
 // console.log(num.toLocaleString('en-IN'));
 
 
-let user = {     // an object
-  name: "John",  // by key "name" store value "John"
-  age: 30        // by key "age" store value 30
-};
+// let user = {     // an object
+//   name: "John",  // by key "name" store value "John"
+//   age: 30        // by key "age" store value 30
+// };
 
 // get property values of the object:
 
@@ -58,9 +58,17 @@ let user = {     // an object
 // console.log(user);
 
 // user.full Name="kuna Biswal";
-user["Full Name"]="kuna biswal";
+// user["Full Name"]="kuna biswal";
 
-console.log(user);
+// console.log(user);
+let user = {
+  name: "John",
+  age: 30
+};
 
+let key = prompt("What do you want to know about the user?", "name");
+
+// access by variable
+alert( user[key] );
 
 
