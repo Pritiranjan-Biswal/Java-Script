@@ -72,6 +72,7 @@ let str="   KUNA";
 let key = "age";
 
 let user = {
+    
   name: "John",
   [key]: 30
 };
