@@ -69,5 +69,12 @@ let str="   KUNA";
 //   let key = "name";
 //   console.log((user[key]));
   
+let key = "age";
 
+let user = {
+  name: "John",
+  [key]: 30
+};
+
+console.log(user[key]);
 
