@@ -89,17 +89,17 @@ let str="   KUNA";
 
 // console.log(obj.);
 
-let user ={
-  name:"kuna",
-  age:30,
-  isAdmin:true
-}
+// let user ={
+//   name:"kuna",
+//   age:30,
+//   isAdmin:true
+// }
 
-for(key in user) {
-  console.log(key);
-  console.log(user[key]);
+// for(key in user) {
+//   console.log(key);
+//   console.log(user[key]);
   
-}
+// }
 
 
 
