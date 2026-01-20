@@ -101,5 +101,11 @@ let str="   KUNA";
   
 // }
 
+let user={};
+user.name="john";
+
+
+console.log(user);
+
 
 
