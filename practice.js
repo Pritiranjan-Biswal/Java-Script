@@ -91,8 +91,14 @@ let str="   KUNA";
 
 let user ={
   name:"kuna",
-  age:30
+  age:30,
+  isAdmin:true
 }
 
-console.log("kuna" in user);
+for(key in user) {
+  console.log(key);
+  
+}
+
+
 
