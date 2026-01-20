@@ -107,5 +107,8 @@ user.name="john";
 
 console.log(user);
 
+user.surname="kuna";
+console.log(user);
+
 
 
