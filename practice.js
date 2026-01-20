@@ -101,18 +101,20 @@ let str="   KUNA";
   
 // }
 
-let user={};
-user.name="john";
+// let user={};
+// user.name="john";
 
 
-console.log(user);
+// console.log(user);
 
-user.surname="kuna";
-console.log(user);
+// user.surname="kuna";
+// console.log(user);
 
 
-user.name="pete";
-console.log(user);
+// user.name="pete";
+// console.log(user);
 
-delete user.name;
-console.log(user);
+// delete user.name;
+// console.log(user);
+
+// \
