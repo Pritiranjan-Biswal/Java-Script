@@ -69,13 +69,22 @@ let str="   KUNA";
 //   let key = "name";
 //   console.log((user[key]));
   
-let key = "age";
+// let key = "age";
 
-let user = {
+// let user = {
     
-  name: "John",
-  [key]: 30
-};
+//   name: "John",
+//   [key]: 30
+// };
 
-console.log(user[key]);
+// console.log(user[key]);
 
+
+
+let obj={
+  for:1,
+  let:2,
+  return:3
+}
+
+console.log(obj.for+obj.let+obj.return);
