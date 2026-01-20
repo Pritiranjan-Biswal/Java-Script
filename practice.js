@@ -81,10 +81,10 @@ let str="   KUNA";
 
 
 
-let obj={
-  for:1,
-  let:2,
-  return:3
-}
+// let obj={
+//   for:1,
+//   let:2,
+//   0:3
+// }
 
-console.log(obj.for+obj.let+obj.return);
+// console.log(obj.);
