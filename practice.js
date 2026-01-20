@@ -89,4 +89,10 @@ let str="   KUNA";
 
 // console.log(obj.);
 
+let user ={
+  name:"kuna",
+  age:30
+}
+
+console.log("kuna" in user);
 
