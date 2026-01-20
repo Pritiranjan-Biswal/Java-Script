@@ -118,3 +118,13 @@ let str="   KUNA";
 // console.log(user);
 
 // \
+
+
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+}
+
+console.log(salaries.John+salaries.Ann+salaries.Pete);
+
