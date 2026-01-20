@@ -111,4 +111,6 @@ user.surname="kuna";
 console.log(user);
 
 
+user.name="pete";
+console.log(user);
 
