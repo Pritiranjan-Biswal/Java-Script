@@ -1,4 +1,4 @@
-let str="   KUNA";
+// let str="   KUNA";
 // console.log(str.length);
 
 // console.log(str.charAt(3));
@@ -120,12 +120,26 @@ let str="   KUNA";
 // \
 
 
-let salaries = {
-  John: 100,
-  Ann: 160,
-  Pete: 130
+// let salaries = {
+//   John: 100,
+//   Ann: 160,
+//   Pete: 130
   
+// }
+
+// console.log(salaries.John+salaries.Ann+salaries.Pete);
+
+
+
+let user_name="kuna";
+function myname() {
+    let user_name="muna";
+    console.log("Hello "+user_name);
+    
 }
 
-console.log(salaries.John+salaries.Ann+salaries.Pete);
+console.log("Hello" +user_name);
 
+myname()
+
+console.log("Hello" +user_name);
