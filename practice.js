@@ -131,15 +131,16 @@
 
 
 
-let user_name="kuna";
-function myname() {
-    let user_name="muna";
-    console.log("Hello "+user_name);
+// let user_name="kuna";
+// function myname() {
+//     let user_name="muna";
+//     console.log("Hello "+user_name);
     
-}
+// }
 
-console.log("Hello" +user_name);
+// console.log("Hello" +user_name);
 
-myname()
+// myname()
 
-console.log("Hello" +user_name);
+// console.log("Hello" +user_name);
+
