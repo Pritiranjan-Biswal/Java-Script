@@ -157,11 +157,16 @@
 // address("muna");
 
 
-var carName="volvo";
+// var carName="volvo";
 
-function myFunction() {
-    let carName="toyota";
-    console.log(carName);
-}
+// function myFunction() {
+//     let carName="toyota";
+//     console.log(carName);
+// }
 
-myFunction()
+// myFunction()
+
+
+x=5;
+var x;
+console.log(x);
