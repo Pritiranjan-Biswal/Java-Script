@@ -166,7 +166,15 @@
 
 // myFunction()
 
+//console.log(x);
+// x=5;
+// var x;
 
-x=5;
-const x;
-console.log(x);
+
+
+myFunction()
+function myFunction() {
+    let name ="kuna";
+    console.log(name);
+    
+}
