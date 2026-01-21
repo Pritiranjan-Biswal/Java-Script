@@ -168,5 +168,5 @@
 
 
 x=5;
-var x;
+const x;
 console.log(x);
