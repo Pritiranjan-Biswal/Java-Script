@@ -144,8 +144,9 @@
 
 // console.log("Hello" +user_name);
 
-function sum(a, b) {
-    console.log(a+b);
+// function sum(a, b) {
+//     console.log(a+b);
     
-}
-console.log((5+8));
+// }
+// console.log((5+8));
+
