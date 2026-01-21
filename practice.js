@@ -157,7 +157,7 @@
 // address("muna");
 
 
-let carName="volvo";
+var carName="volvo";
 
 function myFunction() {
     let carName="toyota";
