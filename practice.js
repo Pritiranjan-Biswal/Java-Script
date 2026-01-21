@@ -172,9 +172,25 @@
 
 
 
-myFunction()
-function myFunction() {
-    let name ="kuna";
-    console.log(name);
+// myFunction()
+// function myFunction() {
+//     let name ="kuna";
+//     console.log(name);
     
+// }
+
+
+// let sum=(a, b) =>a+b;
+// console.log(sum(5, 5));
+
+
+
+// let sayHi=() =>console.log("hello");
+// sayHi()
+
+
+let sum=(a, b) => {
+    let result=a+b;
+    return result;
 }
+console.log(sum(3, 4));
