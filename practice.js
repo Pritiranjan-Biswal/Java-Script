@@ -155,3 +155,13 @@
 // }
 // address("kuna");
 // address("muna");
+
+
+let carName="volvo";
+
+function myFunction() {
+    let carName="toyota";
+    console.log(carName);
+}
+
+myFunction()
