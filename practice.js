@@ -150,8 +150,8 @@
 // }
 // console.log((5+8));
 
-// function address(name, tittle="biswal") {
-//     console.log(name+" "+ tittle);
-// }
-// address("kuna");
-// address("muna");
+function address(name, tittle="biswal") {
+    console.log(name+" "+ tittle);
+}
+address("kuna");
+address("muna");
