@@ -189,8 +189,10 @@
 // sayHi()
 
 
-let sum=(a, b) => {
-    let result=a+b;
-    return result;
-}
-console.log(sum(3, 4));
+// let sum=(a, b) => {
+//     let result=a+b;
+//     return result;
+// }
+// console.log(sum(3, 4));
+
+
