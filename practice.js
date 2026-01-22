@@ -195,8 +195,15 @@
 // }
 // console.log(sum(3, 4));
 
-const chai =() => {
-    let username="kuna";
-    console.log(this);  
+// const chai =() => {
+//     let username="kuna";
+//     console.log(this);  
+// }
+// chai()
+
+
+const age = 22;
+function verifyAge (){
+    return this.age;
 }
-chai()
+console.log(verifyAge());
