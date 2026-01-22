@@ -202,8 +202,29 @@
 // chai()
 
 
-const age = 22;
-function verifyAge (){
-    return this.age;
-}
-console.log(verifyAge());
+// const age = 22;
+// function verifyAge (){
+//     return this.age;
+// }
+// console.log(verifyAge());
+
+
+
+// const kuna= {
+//     name:"pritiranjan",
+//     priti:()=>{
+//         console.log(this.name);
+        
+//     }
+// }
+
+// kuna.priti()
+
+const kuna = {
+    name: "pritiranjan",
+    priti: function () {
+        console.log(this.name);
+    }
+};
+
+kuna.priti();
