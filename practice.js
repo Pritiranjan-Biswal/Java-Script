@@ -195,4 +195,9 @@
 // }
 // console.log(sum(3, 4));
 
-
+const chai =() => {
+    let username="kuna";
+    console.log(this.username);
+    
+}
+chai()
