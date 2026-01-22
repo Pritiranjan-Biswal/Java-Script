@@ -1,4 +1,9 @@
 (function(name) {
     console.log("HELLO "+name);
     
-})("kuna")
+})("kuna");
+
+(()=>{
+    console.log("my name is kuna");
+    
+})()
