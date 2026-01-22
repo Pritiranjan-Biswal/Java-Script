@@ -197,7 +197,6 @@
 
 const chai =() => {
     let username="kuna";
-    console.log(this.username);
-    
+    console.log(this);  
 }
 chai()
