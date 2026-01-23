@@ -219,8 +219,6 @@
 // }
 
 
-
-
 // kuna.priti()
 
 const kuna = {
