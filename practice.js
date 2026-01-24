@@ -229,3 +229,14 @@ const kuna = {
 };
 
 kuna.priti();
+
+
+const mujna = {
+    name: "pritiranjan",
+    priti: function () {
+        console.log(this.name);
+    }
+};
+
+kuna.priti();
+
