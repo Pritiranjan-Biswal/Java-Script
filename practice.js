@@ -240,3 +240,11 @@ const mujna = {
 
 kuna.priti();
 
+const mjna = {
+    name: "pritiranjan",
+    priti: function () {
+        console.log(this.name);
+    }
+};
+
+kuna.priti();
