@@ -44,6 +44,8 @@
 // }
 
 
+
+
 const myCodig=[
     {
         languageName:"JavaScript",
@@ -53,7 +55,7 @@ const myCodig=[
     {
         languageName:"python",
         languageFileName:"py"
-        
+
     },
     {
         languageName:"c++",
