@@ -6,7 +6,12 @@
 const fruits=['Apple', 'Orange', "Grapes", 'Banana'];
 
 
-fruits.forEach((fruit)=>{
+// fruits.forEach((fruit)=>{
+//     console.log(fruit);
+    
+// })
+
+fruits.forEach(function(fruit){
     console.log(fruit);
     
 })
