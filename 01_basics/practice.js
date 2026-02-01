@@ -266,11 +266,10 @@ arr=[1,2,3,4,5];
 arr.forEach(double);
 arr.forEach(display);
 
-function double(index, element, array) {
-    array[index]=element*2p;
+
    
     
-}
+
 
 function display(index, element, array) {
     console.log(array[index]);

@@ -62,6 +62,6 @@ const users = [
 ];
 
 
-const f=users.filter((x)=>x.age<30).reduce((accr, curr) =>
+
 
     
