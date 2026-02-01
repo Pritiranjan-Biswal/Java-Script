@@ -41,8 +41,31 @@
 // name('kuna', undefined);
 
 
-function nothing() {
-    return ;
 
+
+// function isPrime(n) {
+//   for (let i = 2; i < n; i++) {
+//     if ( n % i == 0) return false;
+//   }
+//   return true;
+// }
+// if( isPrime(3)) {
+//     console.log("yes");
+    
+// }
+// else {
+//     console.log("no");
+    
+// }
+
+
+function min(a, b) {
+  return a < b ? a : b;
 }
-console.log(nothing());
+if(min(40,5)) {
+    console.log("yes");
+}
+else {
+    console.log("no");
+    
+}
