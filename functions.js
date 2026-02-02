@@ -59,13 +59,13 @@
 // }
 
 
-function min(a, b) {
-  return a < b ? a : b;
-}
-if(min(40,5)) {
-    console.log("yes");
-}
-else {
-    console.log("no");
+// function min(a, b) {
+//   return a < b ? a : b;
+// }
+// if(min(40,5)) {
     
-}
+// }
+
+let sum=(a,b) => a+b;
+
+console.log(sum(1,3));
