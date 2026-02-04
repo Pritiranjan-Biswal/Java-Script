@@ -66,6 +66,31 @@
     
 // }
 
-let sum=(a,b) => a+b;
+// let sum=(a,b) => a+b;
 
-console.log(sum(1,3));
+// console.log(sum(1,3));
+
+
+// let sayHi= () =>console.log("Hello");
+
+// sayHi();
+
+
+// function fn()  {
+//   console.log("Hello");
+  
+// }
+// function fn2(ok) {
+//   ok
+//   console.log("hello kuna");
+  
+
+// }
+
+// fn2(fn);
+
+let scores = [12, 55, 70];
+
+scores.forEach((score, index, array) => {
+  console.log(array);
+});
