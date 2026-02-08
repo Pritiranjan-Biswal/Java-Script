@@ -18,3 +18,5 @@ let user ={
 
 }
 console.log(user.Redg_no);
+console.log(typeof(user));
+
