@@ -20,15 +20,25 @@
 </body>
 <script>
     // document.getElementById('owl').onclick=function() {
-    //     alert("owl clicked")
+    //     alert("owl clicked") 
     // }
+    
 
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log("clicked inside the ul");
+    // },true)
+    
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("owl clicked");
+    //     e.stopPropagation()
+    // },true)
+    
 
-    document.getElementById('owl').addEventListener('click', function(e){
-        console.log(e);
+    //event propagation
+    document.querySelector('#images').addEventListener('click', function(e){
+        console.log(e.target);
         
     },false)
-    //attachEvent()
 
 
 </script>
