@@ -5,41 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="background-color: black; color:white">
-
-   <ul class="language">
-    <li>Java Script</li>
-   </ul>
+<body>
+    <button>Change color</button>
     
 </body>
-
-<script>
-    function addLanguage(langName) {
-        const li=document.createElement('li');
-        li.innerHTML=`${langName}`
-        document.querySelector('.language').
-        appendChild(li)
-    }
-    addLanguage("Python")
-
-    const sec_lang=document.querySelector("li:nth-child(2)")
-    //sec_lang.innerHTML="kuna"
-    const newli=document.createElement('li')
-    newli.textContent="kuna"
-    sec_lang.replaceWith(newli)
-
-
-    
-
-
-
-    const first_lang=document.querySelector("li:first-child")
-    first_lang.outerHTML='<li>Priti</li>'
-
-
-    const last_lang=document.querySelector("li:last-child")
-    last_lang.remove()
-
-
-</script> 
-</html>  
+</html>
