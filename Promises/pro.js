@@ -1,7 +1,8 @@
 const promiseOne= new Promise(function(resolve, reject) {
     setTimeout(function() {
         console.log("Asyns is Completed");
-    },10000)
+        resolve()
+    },1000)
 })
 
 
