@@ -24,10 +24,19 @@
 // add(2,3);
 
 
-let add =function() {
-    let a=2;
-    let b=3;
-    console.log(a+b);
+// let add =function() {
+//     let a=2;
+//     let b=3;
+//     console.log(a+b);
     
+// }
+// add();
+
+let add= (a, b)=> {
+    console.log(a+b);
+    console.log(a-b);
+    console.log(a*b);
+    console.log(a/b);
+    console.log(a%b);   
 }
-add();
+add(2,3);
