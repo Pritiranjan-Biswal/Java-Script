@@ -14,12 +14,20 @@
 // console.log(typeof undefined)
 
 
-function add(a, b) {
-    console.log(a+b);
-    console.log(a-b);
-    console.log(a*b);
-    console.log(a/b);
-    console.log(a%b);   
-}
-add(2,3);
+// let add=function (a, b) {
+//     console.log(a+b);
+//     console.log(a-b);
+//     console.log(a*b);
+//     console.log(a/b);
+//     console.log(a%b);   
+// }
+// add(2,3);
 
+
+let add =function() {
+    let a=2;
+    let b=3;
+    console.log(a+b);
+    
+}
+add();
