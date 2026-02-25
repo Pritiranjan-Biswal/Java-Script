@@ -32,9 +32,5 @@ async function getDAta() {
     let response= await fetch('https://jsonplaceholder.typicode.com/todos/2');
     let data=await response.json()
     console.log(data);
-    
-  
-
-
 } 
 getDAta();
