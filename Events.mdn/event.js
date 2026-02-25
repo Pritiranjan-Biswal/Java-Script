@@ -1,89 +1,108 @@
-// // const btn = document.querySelector("button");
+// // // const btn = document.querySelector("button");
 
-// // function random(number) {
-// //   return Math.floor(Math.random() * (number + 1));
+// // // function random(number) {
+// // //   return Math.floor(Math.random() * (number + 1));
+// // // }
+
+// // // btn.addEventListener("click", () => {
+// // //   const rndCol = `rgb(${random(255)} ${random(255)} ${random(255)})`;
+// // //   document.body.style.backgroundColor = rndCol;
+// // // });
+
+// // const kuna=document.querySelector('h4');
+
+// // // kuna.addEventListener("click", function() {
+// // //   this.textContent="Kuna Biswal";
+// // // }, {once:true});
+
+
+
+
+// // function changeText() {
+// //   kuna.textContent="kuna bIswal";
+// //   kuna.removeEventListener("click", changeText);
 // // }
-
-// // btn.addEventListener("click", () => {
-// //   const rndCol = `rgb(${random(255)} ${random(255)} ${random(255)})`;
-// //   document.body.style.backgroundColor = rndCol;
-// // });
-
-// const kuna=document.querySelector('h4');
-
-// // kuna.addEventListener("click", function() {
-// //   this.textContent="Kuna Biswal";
-// // }, {once:true});
+// // kuna.addEventListener("click", changeText);
 
 
+// const kuna= document.querySelector('#increase');
+// const muna=document.querySelector('#decrease');
+// const display=document.querySelector('h4');
+
+// const reset=document.querySelector('#reset');
+// const body=document.querySelector('body');
+// // console.log(kuna);
 
 
-// function changeText() {
-//   kuna.textContent="kuna bIswal";
-//   kuna.removeEventListener("click", changeText);
+// // kuna.addEventListener("click", (item) =>{
+// //   item=item+1;
+// // })
+// let count=0;
+
+// function updateDisplay() {
+//   display.textContent=count;
 // }
-// kuna.addEventListener("click", changeText);
 
 
-const kuna= document.querySelector('#increase');
-const muna=document.querySelector('#decrease');
-const display=document.querySelector('h4');
-
-const reset=document.querySelector('#reset');
-const body=document.querySelector('body');
-// console.log(kuna);
-
-
-// kuna.addEventListener("click", (item) =>{
-//   item=item+1;
-// })
-let count=0;
-
-function updateDisplay() {
-  display.textContent=count;
-}
-
-
-function colorDisplay() {
-  if (count==0) {
-    body.style.backgroundColor="red";
-  }
-  else if(count==10) {
-    body.style.backgroundColor="green";
-  }
-  else {
-    body.style.backgroundColor="black";
-  }
-}
+// function colorDisplay() {
+//   if (count==0) {
+//     body.style.backgroundColor="red";
+//   }
+//   else if(count==10) {
+//     body.style.backgroundColor="green";
+//   }
+//   else {
+//     body.style.backgroundColor="black";
+//   }
+// }
 
 
 
 
-kuna.addEventListener("click", ()=> {
-  count++;
-  updateDisplay();
-  colorDisplay();
+// kuna.addEventListener("click", ()=> {
+//   count++;
+//   updateDisplay();
+//   colorDisplay();
 
   
 
   
-});
+// });
 
 
 
 
 
-muna.addEventListener("click", () =>{
-  if (count>0) {
-    count--;
-    updateDisplay();
-    colorDisplay();
+// muna.addEventListener("click", () =>{
+//   if (count>0) {
+//     count--;
+//     updateDisplay();
+//     colorDisplay();
+//   }
+// });
+// reset.addEventListener("click", ()=> {
+//   count=0;
+//   updateDisplay();
+//   colorDisplay();
+// });
+
+
+let pen={
+  Brand:"Camlin",
+  price:29,
+  color:"Green"
+}
+
+console.log(pen.Brand);
+
+
+let person ={
+  
+  location: {
+    place:"DKL",
+    pincode:759019
   }
-});
-reset.addEventListener("click", ()=> {
-  count=0;
-  updateDisplay();
-  colorDisplay();
-});
+}
 
-
+console.table(person);
+person.greet();
