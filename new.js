@@ -1,5 +1,9 @@
-const dwn=document.querySelector("#dwn")
-    dwn.addEventListener("click", function() {
-        dwn.innerText='Downloaded'
-        //console.log("Downloaded SUccessfully");
-    }); 
+const p=document.getElementsByTagName('h1');
+
+for(let i=0; i<p.length; i++) {
+    if(i%2 != 0) {
+        p[i].innerText="I am a Student";
+        p[i].style.backgroundColor="green"
+        
+    }
+}
