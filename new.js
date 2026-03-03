@@ -9,3 +9,5 @@ for(let i=0; i<p.length; i++) {
 }
 
 console.log("hello world");
+console.log("hello world");
+console.log("hello world");
