@@ -14,4 +14,5 @@
 
 // console.log(5 == "5");   // true
 
-console.log(typeof []);
+// console.log(typeof []);
+console.log(typeof null);
