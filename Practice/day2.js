@@ -23,4 +23,37 @@ let str2="BISWAL"
 
 // console.log(str1.lastIndexOf('a'));
 
-console.log(str1.replaceAll('a', 'p'));
+// console.log(str1.replaceAll('a', 'p'));
+
+
+// console.log("a, b, c" .split(" , "));
+
+
+
+// console.log("kuna ".concat ("world"));
+
+
+
+
+let num=123.567;
+console.log(num.toPrecision(2));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
