@@ -1,5 +1,7 @@
+
+let key="name"
 let user ={
-    name:"kuna",
+    [key]:"kuna",
     age:20,
     full_name:"p biswal"
 };
@@ -25,5 +27,5 @@ let user ={
 
 
 
-
-console.log(user);
+console.log(user[key]);
+// console.log(user.key);
