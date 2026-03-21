@@ -28,22 +28,41 @@
 // sum(2,3)
 
 
-function ShowMessage(from, text) {
-    console.log(from+ " "+ text);
+// function ShowMessage(from, text) {
+//     console.log(from+ " "+ text);
     
-}
+// }
 
-ShowMessage()
-
-
+// ShowMessage()
 
 
 
+// function sum(a,b) {
+//     let c=a+b
+//     return c;
+    
+// }
+// console.log(sum(2,3))
 
 
+// let sum=(a,b)=> {
+//     return a+b;
+// }
 
 
+// console.log(sum(2,3));
 
+// x=5;
+
+// console.log(x);
+// const x;
+
+
+(function() {
+    let x=10;
+    console.log(x);
+    
+}) ();
 
 
 
