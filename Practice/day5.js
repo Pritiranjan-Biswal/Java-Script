@@ -58,12 +58,14 @@
 // const x;
 
 
-(function() {
-    let x=10;
-    console.log(x);
+// (function() {
+//     let x=10;
+//     console.log(x);
     
-}) ();
+// }) ();
+x=5;
 
+console.log(x);
 
 
 
