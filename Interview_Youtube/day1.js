@@ -51,9 +51,52 @@
 
 
 
-let arr=[1,10,18,14,6]
-function abc(p,...a) {
-    console.log(a);
+// let arr=[1,10,18,14,6]
+// function abc(p,...a) {
+//     console.log(a);
     
-}
-abc(8,9,10,11)
+// }
+// abc(8,9,10,11)
+
+
+// const arr=["a", 1, "b",2,"c", 3,"d"]
+// let num=[]
+// let c=[]
+// for(let i=0; i<arr.length; i++) {
+//     if(typeof(arr[i])=="string") {
+//         c.push(arr[i])
+//     }
+//     else {
+//         num.push(arr[i]);
+//     }
+// }
+// console.log(c);
+// console.log(num);
+
+// let a=2;
+// let b=3;
+
+
+// a=a+b;
+// b=a-b;
+// a=a-b;
+
+// console.log(a);
+// console.log(b);
+
+// let a1=[1,2,3,4,5]
+// let a2=[3,4,5,6,7]
+
+// let  result=a1.filter(item => a2.includes(item));
+
+// console.log(result);
+
+
+let arr=[1,2,3,4,5]
+
+let mul=arr.reduce(function (a, element)  {
+    
+    return element*a;
+},1)
+console.log(mul);
+
